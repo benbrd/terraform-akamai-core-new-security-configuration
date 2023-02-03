@@ -1,0 +1,16 @@
+contract_id = "XXXXX"
+group_name = "XXXXX"
+
+nl_prefix = "NL Prefix"
+
+name = "WAF Configuration"
+description = "WAF Security Configuration created via Terraform"
+hostnames = ["www.example.com"]
+
+applyReputationControls = "true"
+applyBotmanControls = "true" 
+
+activate = "false" 
+notification_emails = ["noreply@example.org"]
+note = "Activated by Terraform"
+network = "STAGING"
