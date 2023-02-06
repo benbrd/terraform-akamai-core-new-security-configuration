@@ -51,16 +51,16 @@ module "example" {
 	 contract_id	= "<contract_id>"
 	 group_name  	= "<group_name>"
 	 hostnames  	= ["www.example.com"]
-	 name  			= "WAF Security Configuration"
+	 name  		= "WAF Security Configuration"
 
 	 # Optional variables
-	 activate  					= "false"
+	 activate  			= "false"
 	 applyBotmanControls  		= "false"
 	 applyReputationControls  	= "false"
-	 description  				= "WAF Security Configuration created via Terraform"
-	 network  					= "STAGING"
-	 nl_prefix  				= "NL"
-	 note  						= "Activated by Terraform"
+	 description  			= "WAF Security Configuration created via Terraform"
+	 network  			= "STAGING"
+	 nl_prefix  			= "NL"
+	 note  				= "Activated by Terraform"
 	 notification_emails  		= ["contact@example.com"]
 }
 ```
